@@ -81,6 +81,8 @@ footer {
 
 .footer-list .footer-link {
     color: var(--color-neutral-30);
+    transition: all 0.4s;
+
 }
 
 .footer-list .footer-link:hover {
@@ -135,14 +137,14 @@ footer {
     font-weight: 100;
 }
 
-@media  screen and (max-widhtJ:768px) {
+@media  screen and (max-width:768px) {
     #footer_content {
         grid-template-columns: repeat(2, 1fr);
         gap: 2rem;
     }
 }
 
-@media  screen and (max-widhtJ:426px) {
+@media  screen and (max-width:426px) {
     #footer_content {
         grid-template-columns: repeat(1, 1fr);
         padding: 3rem 2rem;
